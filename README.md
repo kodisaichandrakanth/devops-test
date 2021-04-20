@@ -24,7 +24,6 @@ To run the application locally, you should have a version of Ruby installed on y
 
 ```
 $ \curl -sSL https://get.rvm.io | bash -s stable
-$
 ```
 
 Once you have Ruby 2.6 installed, you can install the applications dependencies:
@@ -32,6 +31,13 @@ Once you have Ruby 2.6 installed, you can install the applications dependencies:
 ```
 $ gem install bundler puma foreman
 $ bundle install
+```
+
+Make sure redis is running on port 6379:
+
+```
+$ brew install redis
+$ brew services start redis
 ```
 
 The command to start all services, you can use:

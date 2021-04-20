@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # If we update this, update .heal/.ruby-version file.
-ruby "2.6.6"
+# ruby "2.6.6"
 
 gem "aws-sdk-sqs"
 gem "aws-sdk-core"
