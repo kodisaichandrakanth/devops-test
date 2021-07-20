@@ -1,7 +1,7 @@
 # Heal Test Application
 The goal of this project is for you to demonstrate your ability to take a standard web application and generate the appropriate files (Docker/Terraform) required to deploy it in the cloud. In addition you should provide methodology, either in code or verbally, on how secret credentials such as database URLs can be retrieved from Vault or some other secret key store / mechanism and used securely inside the application.
 
-The web application code is provided in this repository, and instructions can be found below on how to run the application locally. Once you have completed the deliverables listed below you can submit your solution for review via pull request, or email a .zip file to `anthony.persaud@heal.com`.
+The web application code is provided in this repository, and instructions can be found below on how to run the application locally. Once you have completed the deliverables listed below you can submit your solution for review via pull request, or email a .zip file to `brendan.rogers@heal.com`.
 
 ![App](./docs/app.png)
 
